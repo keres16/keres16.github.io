@@ -1,3 +1,7 @@
+.mus {
+    visibility: hidden;
+}
+
 body {
     background-color: cadetblue;
 }
