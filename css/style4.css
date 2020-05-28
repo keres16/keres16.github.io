@@ -8,6 +8,7 @@ body {
     padding: 0;
     background-image: url(../images/88.png);
 }
+
 .wrapper {
     margin: 0 auto;
     max-width: 1300px;
@@ -59,13 +60,12 @@ span#contact img {
     opacity: 0;
     filter:alpha(opacity=0);
 }
-
 .tag {
     display: inline-block;
     font: 15px verdana;
     color: #FFD400;
     vertical-align: super;
-    
+
 }
 
 .menu-top {
@@ -100,7 +100,7 @@ span#contact img {
     color: red;
 }
 
-/*.header ul ul {
+.header ul ul {
     line-height: normal;
     display: none;
     position: absolute;
@@ -121,7 +121,7 @@ span#contact img {
     display: list-item;
     position: relative;
     z-index: 2;
-}*/
+}
 
 .content {
     float: left;
@@ -146,14 +146,15 @@ span#contact img {
     border-radius: 0 0 5px 5px;
     background-color: #2E2E2E;
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, .54);
-    height: 700px;  
-    
+    height: 700px;
+
 }
 
 @media screen and (max-width: 1000px) {
     .ad-menu {
         display: none;
     }
+
     .content {
         width: 100%;
     }
@@ -199,3 +200,22 @@ span#contact img {
     font: 18px Comic Sans MS;
 }
 
+#obd {
+    color: #00FFC8;
+}
+
+#vid {
+    color: #FF0000;
+}
+
+#ogl {
+    color: #FF8C00;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
