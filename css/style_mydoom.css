@@ -133,6 +133,10 @@ span#contact img {
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, .3);
 }
 
+div#text a {
+    color: #40E0D0;
+}
+
 #img {
     position: absolute;
     left: 44.5%;
@@ -199,3 +203,12 @@ span#contact img {
     font: 18px Comic Sans MS;
 }
 
+#ogl {
+    color: #FF8C00;
+    margin: 30px 0 10px 40px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -199,3 +199,23 @@ span#contact img {
     font: 18px Comic Sans MS;
 }
 
+#ogl {
+    color: #FF8C00;
+    margin: 30px 0 10px 50px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div#text li {
+    color: red;
+}
+div#text li span {
+    color: #bdbdbd;
+}
+
+#stroka {
+    color: red;
+}
