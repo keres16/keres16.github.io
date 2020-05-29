@@ -212,3 +212,10 @@ p {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+body > a img {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 40px;
+}

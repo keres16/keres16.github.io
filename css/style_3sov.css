@@ -13,6 +13,9 @@ body {
     max-width: 1300px;
     min-width: 1000px;
 }
+.ww {
+    position: relative;
+}
 
 .header {
     position: relative;
@@ -160,6 +163,12 @@ div#all #perv, #vtor, #tret {
     box-shadow: 0 0 8px 2px rgba(0, 0, 0, .44);
 }
 
+#hovver:hover{
+    transform: scale(1.05);
+}
+#hovver:hover{
+    transition:0.5s;
+}
 
 .left-menu {
     float: right;
@@ -219,5 +228,12 @@ div#all #perv, #vtor, #tret {
     padding: 0px 20px 10px 40px;
     margin-bottom: 15px;
     font: 18px Comic Sans MS;
+}
+
+body > a img {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 40px;
 }
 

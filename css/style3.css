@@ -221,3 +221,10 @@ span#contact img {
     margin-top: 25px;
     margin-bottom: 5px;
 }
+
+body > a img {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 40px;
+}

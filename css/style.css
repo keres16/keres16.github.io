@@ -199,3 +199,10 @@ span#contact img {
     font: 18px Comic Sans MS;
 }
 
+body > a img {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 40px;
+}
+

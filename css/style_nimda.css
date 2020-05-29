@@ -219,3 +219,10 @@ div#text li span {
 #stroka {
     color: red;
 }
+
+body > a img {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 40px;
+}
