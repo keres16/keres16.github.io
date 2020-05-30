@@ -197,6 +197,34 @@ span#contact img {
     margin-bottom: 15px;
     font: 18px Comic Sans MS;
 }
+#text2 {
+    padding: 0px 20px 10px 40px;
+    margin-bottom: 15px;
+    font: 18px Comic Sans MS;
+}
+
+table {
+    margin-top: 30px;
+    border-spacing: 0 6px;;
+}
+
+table tr:hover{
+    transform: scale(1.05);
+    cursor: zoom-in;
+}
+
+#cell1 {
+    width: 17%;
+    text-align: left;
+    background-color: #1E1E1E;
+    border-radius: 10px 0 0 10px;
+}
+#cell2 {
+    background-color: #383838;
+    border-radius: 0 10px 10px 0;
+    text-indent: 20px;
+    padding: 0 10px;
+}
 
 #obd {
     color: #00FFC8;
