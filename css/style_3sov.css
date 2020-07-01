@@ -8,6 +8,7 @@ body {
     padding: 0;
     background-image: url(../images/88.png);
 }
+
 .wrapper {
     margin: 0 auto;
     max-width: 1300px;
@@ -36,6 +37,7 @@ body {
     min-width: 1000px;
     margin: 0 auto;
 }
+
 #contact {
     display: inline-block;
     float: right;
@@ -49,16 +51,18 @@ span#contact img {
 
 #contatc:hover img#img1 {
     opacity: 1;
-    filter:alpha(opacity=100);
+    filter: alpha(opacity=100);
 }
-#contatc:hover img#img2, #contact img#img2:hover {
+
+#contatc:hover img#img2,
+#contact img#img2:hover {
     opacity: 0;
-    filter:alpha(opacity=0);
+    filter: alpha(opacity=0);
 }
 
 #contatc img#img1 {
     opacity: 0;
-    filter:alpha(opacity=0);
+    filter: alpha(opacity=0);
 }
 
 .tag {
@@ -66,7 +70,7 @@ span#contact img {
     font: 15px verdana;
     color: #FFD400;
     vertical-align: super;
-    
+
 }
 
 .menu-top {
@@ -101,29 +105,6 @@ span#contact img {
     color: red;
 }
 
-/*.header ul ul {
-    line-height: normal;
-    display: none;
-    position: absolute;
-    top: 90%;
-    background-color: #181818;
-    border-radius: 0 0 14px 14px;
-}
-
-.header ul li:hover > ul {
-    display: inherit;
-    z-index: 2;
-}
-
-.header ul ul li {
-    padding: 10px;
-    width: 150px;
-    float: none;
-    display: list-item;
-    position: relative;
-    z-index: 2;
-}*/
-
 #img {
     position: absolute;
     left: 44.5%;
@@ -140,32 +121,38 @@ span#contact img {
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, .3);
 }
 
-#perv, #vtor, #tret {
+#perv,
+#vtor,
+#tret {
     display: flex;
-    
+
 }
 
 div#all p {
     font: 18px Comic Sans MS;
     margin: 15px 0 0 15px;
 }
+
 div#all a {
     text-decoration: none;
     color: red;
 }
 
-div#all #perv, #vtor, #tret {
+div#all #perv,
+#vtor,
+#tret {
     width: 90%;
     background-color: #1E1E1E;
     margin: 20px auto 20px 50px;
     box-shadow: 0 0 8px 2px rgba(0, 0, 0, .44);
 }
 
-#hovver:hover{
+#hovver:hover {
     transform: scale(1.05);
 }
-#hovver:hover{
-    transition:0.5s;
+
+#hovver:hover {
+    transition: 0.5s;
 }
 
 .left-menu {
@@ -175,14 +162,15 @@ div#all #perv, #vtor, #tret {
     border-radius: 0 0 5px 5px;
     background-color: #2E2E2E;
     box-shadow: 0 0 8px 1px rgba(0, 0, 0, .54);
-    height: 700px;  
-    
+    height: 700px;
+
 }
 
 @media screen and (max-width: 1000px) {
     .ad-menu {
         display: none;
     }
+
     .content {
         width: 100%;
     }
@@ -234,4 +222,3 @@ body > a img {
     bottom: 10px;
     border-radius: 40px;
 }
-

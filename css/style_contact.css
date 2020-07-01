@@ -104,29 +104,6 @@ span#contact img {
     color: red;
 }
 
-/*.header ul ul {
-    line-height: normal;
-    display: none;
-    position: absolute;
-    top: 90%;
-    background-color: #181818;
-    border-radius: 0 0 14px 14px;
-}
-
-.header ul li:hover > ul {
-    display: inherit;
-    z-index: 2;
-}
-
-.header ul ul li {
-    padding: 10px;
-    width: 150px;
-    float: none;
-    display: list-item;
-    position: relative;
-    z-index: 2;
-}*/
-
 .content {
     float: left;
     position: relative;
@@ -234,7 +211,7 @@ span#contact img {
     display: block;
 }
 
-#form1 input{
+#form1 input {
     width: 180px;
     border: 1px solid #ddd;
     padding: 3px;
